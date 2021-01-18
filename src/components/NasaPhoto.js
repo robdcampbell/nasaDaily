@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import NavBar from "./NavBar";
 const apiKey = process.env.REACT_APP_NASA_KEY;
 
 const NasaPhoto = () => {
@@ -20,6 +21,7 @@ const NasaPhoto = () => {
 
   return (
     <div>
+      <NavBar />
       {photoData.media_type === "image" ? (
         <img
           src={photoData.url}
