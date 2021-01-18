@@ -17,6 +17,7 @@ _Please note: There is a default hourly limit of 1000 requests_
 Create a .env file in the root project directory, and insert a generated NASA API key as follows:
 REACT_APP_NASA_KEY=exampleGeneratedAPI
 
+Once .env file is created with the API Key, return to the project directory and run:
 `npm start`
 
 ### Important note if deploying to netlify:
